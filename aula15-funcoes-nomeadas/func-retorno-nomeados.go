@@ -10,6 +10,5 @@ func calcMath(n1, n2 int) (sum, sub int) {
 }
 
 func main() {
-
 	fmt.Println(calcMath(1, 2))
 }
