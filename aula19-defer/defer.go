@@ -12,7 +12,7 @@ func funcao2() {
 
 func isAprove(n1, n2 uint) bool {
 	fmt.Println("Is aprove")
-	defer fmt.Println("Resultado aprovação") //Com defer adiamos até o ultimo momento a execução de um trecho de código.
+	defer fmt.Println("Resultado aprovação") //Com defer adiamos até o ultimo momento a execução de um trecho de código. No caso de retornos ela é executada antes do retorno, ou  melhor adiata até esse momento
 	if (n1 + n2/2) > 5 {
 		return true
 	} else {
